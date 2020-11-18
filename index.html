@@ -4,13 +4,17 @@
 <head>
 	<meta charset="utf-8" />
 	<title>James Leung | Home</title>
-	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style>
 		html, body {
 			height: 100%;
+		}
+
+		h2 {
+			font-family: Fira Sans, sans-serif;
+			font-weight: 400;
 		}
 
 		body {
@@ -23,11 +27,11 @@
 		}
 
 		html {
-			font-family: Open Sans, sans-serif; 
+			font-family: Open Sans, sans-serif;
 		}
 
 		#header-link {
-			display: flex;
+			display: inline-flex;
 			align-items: center;
 		}
 
@@ -35,7 +39,7 @@
 			font-family: Fira Sans, sans-serif;
 			font-size: xx-large;
 			position: relative;
-			font-weight: 300;
+			font-weight: 500;
 			margin-left: 1rem;
 		}
 
@@ -54,7 +58,7 @@
 		#navigation {
 			padding: 0.5em;
 			margin: 0;
-			background-color: #e8e8e8;
+			background-color: #e4e4e4;
 			display: flex;
 			justify-content: end;
 		}
@@ -151,13 +155,72 @@
 				height: 40px;
 			}
 
-		#copyright-info{
-			margin:0;
-			padding:0;
-		}	
+		#copyright-info {
+			margin: 0;
+			padding: 0;
+		}
 
-		.body-text {
-			margin: 2rem 15%;
+		.game-preview {
+			position: relative;
+		}
+
+			.game-preview * {
+				border-radius: 10px 10px 15px 15px;
+			}
+
+			.game-preview img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+
+		.wrapper {
+			display: grid;
+			grid-template-columns: repeat(5, 1fr);
+			grid-template-rows: repeat(2, 1fr);
+			grid-gap: 1rem;
+			width: 70%;
+			margin: 2em auto auto
+		}
+
+		.main-game {
+			grid-column: 1 / span 3;
+			grid-row: 1 / span 2
+		}
+
+		.side-game {
+			grid-column: 4 / span 2;
+		}
+
+		.game-description {
+			height: 25%;
+			width: 100%;
+			background-color: white;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			border-radius: 0 0 10px 10px;
+		}
+
+		.main-game .game-description {
+			display: flex;
+			flex-direction: column;
+		}
+
+			.main-game .game-description > * {
+				margin: 0.5rem 1rem;
+				text-overflow: ellipsis;
+				display: -webkit-box;
+				-webkit-line-clamp: 2;
+				-webkit-box-orient: vertical;
+				overflow: hidden;
+				min-width: 0;
+			}
+
+		.side-game .game-description {
+			display: flex;
+			justify-content: center;
+			align-items: center;
 		}
 	</style>
 </head>
@@ -166,7 +229,7 @@
 	<header style="position: relative">
 		<nav style="background-color: #FDFDFD;">
 			<a id="header-link" href="index.html">
-				<img id="header-image" src="ProfileImage.jpg" />
+				<img id="header-image" src="Images/ProfileImage.jpg" />
 				<h1 id="header-text">James Leung</h1>
 			</a>
 			<ul id="navigation">
@@ -185,15 +248,38 @@
 		</nav>
 	</header>
 	<main>
-		<p class="body-text">
-			</p>
+		<div class="wrapper">
+			<div class="main-game game-preview">
+				<img src="Images/Testing.png" />
+				<div class="game-description">
+					<h2>Game Name</h2>
+					<p>
+						Game description... Doggo ipsum sub woofer big ol. Boof floofs you are doing me the shock very jealous pupper floofs what a nice floof, waggy wags such treat ruff. Fat boi long water shoob heck pupper ruff, you are doin me a concern heckin good boys and girls. You are doin me a concern doggo very good spot maximum borkdrive stop it fren borkf, ruff aqua doggo smol. Borkf heckin angery woofer fat boi long woofer long doggo, woofer boofers noodle horse, such treat extremely cuuuuuute tungg. Ur givin me a spook tungg thicc maximum borkdrive, adorable doggo very good spot. Vvv you are doin me a concern heckin tungg you are doing me a frighten wow such tempt borkf shoob borkdrive, blop waggy wags most angery pupper I have ever seen sub woofer long bois what a nice floof. yapper dat tungg tho woofer. Pupperino bork vvv snoot tungg yapper, floofs you are doing me a frighten yapper he made many woofs
+						You are doing me the shock you are doin me a concern what a nice floof yapper bork thicc, shibe corgo snoot I am bekom fat. Mlem yapper doggo doing me a frighten puggo, floofs smol borking doggo with a long snoot for pats vvv. Sub woofer noodle horse heckin good boys extremely cuuuuuute doing me a frighten very taste wow, fat boi very jealous pupper puggorino. Snoot dat tungg tho such treat long water shoob blop ruff floofs, you are doin me a concern stop it fren heckin angery woofer fluffer. Big ol pupper pupperino tungg very good spot shoob tungg, aqua doggo many pats wow such tempt dat tungg tho I am bekom fat the neighborhood pupper, shooberino heck much ruin diet bork. Very hand that feed shibe heck corgo what a nice floof, fluffer long water shoob. sub woofer doggorino much ruin diet. Tungg extremely cuuuuuute doggorino yapper heckin good boys and girls, long woofer maximum borkdrive. Clouds porgo long woofer doggo, much ruin diet.
+						Adorable doggo corgo doggorino you are doing me a frighten, heckin good boys. Wrinkler puggo he made many woofs borking doggo very taste wow, stop it fren long water shoob. Much ruin diet wow very biscit doge, big ol pupper. Doggorino heckin good boys and girls what a nice floof extremely cuuuuuute wrinkler, very jealous pupper long doggo. Snoot wow very biscit you are doin me a concern, shoober. Fluffer big ol super chub shoober very taste wow shooberino, big ol pupper you are doing me the shock shoober big ol. very hand that feed shibe length boy you are doin me a concern. Borkdrive long bois doing me a frighten maximum borkdrive, smol. Boof very hand that feed shibe clouds heckin good boys yapper pupperino, corgo heckin good boys and girls boof. Much ruin diet very hand that feed shibe length boy yapper wow very biscit h*ck much ruin diet, doing me a frighten heckin good boys and girls smol heckin heckin good boys. Much ruin diet very taste wow bork puggorino fat boi pats, he made many woofs shoober borkf adorable doggo. Sub woofer tungg aqua doggo very jealous pupper h*ck, dat tungg tho much ruin diet.
+					</p>
+				</div>
+			</div>
+			<div class="side-game game-preview">
+				<img src="Images/Testing.png" />
+				<div class="game-description">
+					<h2>Game Name</h2>
+				</div>
+			</div>
+			<div class="side-game game-preview">
+				<img src="Images/Testing.png" />
+				<div class="game-description">
+					<h2>Game Name</h2>
+				</div>
+			</div>
+		</div>
 	</main>
 	<footer>
 		<div id="bottom-bar">
 			<ul id="contact-links">
-				<li class="social-image"><a href="https://twitter.com/GhostEntity12"><img src="TwitterIcon.png" /></a></li>
-				<li class="social-image"><a href="https://ghostentity12.itch.io/">	<img src="ItchioIcon.png" /></a></li>
-				<li class="social-image"><a href="https://twitter.com/GhostEntity12"><img src="LinkedInIcon.png" /></a></li>
+				<li class="social-image"><a href="https://twitter.com/GhostEntity12"><img src="Images/IconTwitter.png" /></a></li>
+				<li class="social-image"><a href="https://ghostentity12.itch.io/">	<img src="Images/IconItchio.png" /></a></li>
+				<li class="social-image"><a href="https://twitter.com/GhostEntity12"><img src="Images/IconLinkedIn.png" /></a></li>
 			</ul>
 			<p id="copyright-info">
 				© James Leung 2020

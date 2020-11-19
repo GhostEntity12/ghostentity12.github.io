@@ -177,20 +177,20 @@
 
 		.wrapper {
 			display: grid;
-			grid-template-columns: repeat(5, 1fr);
-			grid-template-rows: repeat(2, 1fr);
+			grid-template-columns: 60% 40%;
+			grid-template-rows: min-content;
 			grid-gap: 1rem;
-			width: 70%;
-			margin: 2em auto auto
+			max-width: 70%;
+			margin: 2em auto;
 		}
 
 		.main-game {
-			grid-column: 1 / span 3;
-			grid-row: 1 / span 2
+			grid-column: 1 / 2;
+			grid-row: 1 / 3
 		}
 
 		.side-game {
-			grid-column: 4 / span 2;
+			grid-column: 2 / 3;
 		}
 
 		.game-description {
@@ -231,29 +231,38 @@
 				justify-content: center;
 			}
 
+			.dropdown-content{
+				display: none;
+			}
+
 			.wrapper {
 				display: grid;
 				grid-template-rows: repeat(3, 1fr);
 				grid-template-columns: repeat(1, 1fr);
 				grid-gap: 1rem;
 				width: 70%;
-				margin: 2em auto
+				margin: 2em auto;
 			}
 
 			.main-game {
-				grid-column: 1 / span 1;
-				grid-row: 1 / span 1
+				grid-column: 1 / 2;
+				grid-row: 1 / 2;
 			}
 
 			.side-game {
-				grid-column: 1 / span 1;
+				grid-column: 1 / 2;
+			}
+
+			.game-description {
+				height: 30%;
 			}
 
 			.main-game .game-description {
 				display: flex;
 				justify-content: center;
 				align-items: center;
-				height: 25%;
+				height: 30%;
+				text-align: center;
 			}
 
 				.main-game .game-description > * {
@@ -264,6 +273,15 @@
 			.main-game p{
 				display:none !important;
 			}
+		}
+
+		#bearpic {
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			width: 10vw;
+			height: auto;
+			transform: translateX(-30%) translateY(30%) rotate(30deg);
 		}
 	</style>
 </head>
@@ -281,9 +299,9 @@
 				<li class="nav-link dropdown">
 					<a href="archive">Projects</a>
 					<div class="dropdown-content">
-						<a href="content.html">Welcome to the Apocalypse</a>
+						<a href="welcome-to-the-apocalypse.html">Welcome to the Apocalypse</a>
 						<a href="#">Tavern Trashers</a>
-						<a href="#">Village of Fate</a>
+						<a href="village-of-fate">Village of Fate</a>
 						<a href="archive">Full Archive</a>
 					</div>
 				</li>
@@ -292,42 +310,56 @@
 	</header>
 	<main>
 		<div class="wrapper">
-			<div class="main-game game-preview">
+			<a href="welcome-to-the-apocalypse.html" class="main-game game-preview">
 				<img src="Images/Testing.png" />
 				<div class="game-description">
-					<h2>Game Name</h2>
+					<h2>Welcome to the Apocalypse</h2>
 					<p>
 						Game description... Doggo ipsum sub woofer big ol. Boof floofs you are doing me the shock very jealous pupper floofs what a nice floof, waggy wags such treat ruff. Fat boi long water shoob heck pupper ruff, you are doin me a concern heckin good boys and girls. You are doin me a concern doggo very good spot maximum borkdrive stop it fren borkf, ruff aqua doggo smol. Borkf heckin angery woofer fat boi long woofer long doggo, woofer boofers noodle horse, such treat extremely cuuuuuute tungg. Ur givin me a spook tungg thicc maximum borkdrive, adorable doggo very good spot. Vvv you are doin me a concern heckin tungg you are doing me a frighten wow such tempt borkf shoob borkdrive, blop waggy wags most angery pupper I have ever seen sub woofer long bois what a nice floof. yapper dat tungg tho woofer. Pupperino bork vvv snoot tungg yapper, floofs you are doing me a frighten yapper he made many woofs
 						You are doing me the shock you are doin me a concern what a nice floof yapper bork thicc, shibe corgo snoot I am bekom fat. Mlem yapper doggo doing me a frighten puggo, floofs smol borking doggo with a long snoot for pats vvv. Sub woofer noodle horse heckin good boys extremely cuuuuuute doing me a frighten very taste wow, fat boi very jealous pupper puggorino. Snoot dat tungg tho such treat long water shoob blop ruff floofs, you are doin me a concern stop it fren heckin angery woofer fluffer. Big ol pupper pupperino tungg very good spot shoob tungg, aqua doggo many pats wow such tempt dat tungg tho I am bekom fat the neighborhood pupper, shooberino heck much ruin diet bork. Very hand that feed shibe heck corgo what a nice floof, fluffer long water shoob. sub woofer doggorino much ruin diet. Tungg extremely cuuuuuute doggorino yapper heckin good boys and girls, long woofer maximum borkdrive. Clouds porgo long woofer doggo, much ruin diet.
 						Adorable doggo corgo doggorino you are doing me a frighten, heckin good boys. Wrinkler puggo he made many woofs borking doggo very taste wow, stop it fren long water shoob. Much ruin diet wow very biscit doge, big ol pupper. Doggorino heckin good boys and girls what a nice floof extremely cuuuuuute wrinkler, very jealous pupper long doggo. Snoot wow very biscit you are doin me a concern, shoober. Fluffer big ol super chub shoober very taste wow shooberino, big ol pupper you are doing me the shock shoober big ol. very hand that feed shibe length boy you are doin me a concern. Borkdrive long bois doing me a frighten maximum borkdrive, smol. Boof very hand that feed shibe clouds heckin good boys yapper pupperino, corgo heckin good boys and girls boof. Much ruin diet very hand that feed shibe length boy yapper wow very biscit h*ck much ruin diet, doing me a frighten heckin good boys and girls smol heckin heckin good boys. Much ruin diet very taste wow bork puggorino fat boi pats, he made many woofs shoober borkf adorable doggo. Sub woofer tungg aqua doggo very jealous pupper h*ck, dat tungg tho much ruin diet.
 					</p>
 				</div>
-			</div>
-			<div class="side-game game-preview">
+			</a>
+			<a href="#" class="side-game game-preview">
 				<img src="Images/Testing.png" />
 				<div class="game-description">
-					<h2>Game Name</h2>
+					<h2>Tavern Trashers</h2>
 				</div>
-			</div>
-			<div class="side-game game-preview">
-				<img src="Images/Testing.png" />
+			</a>
+			<a href="village-of-fate.html" class="side-game game-preview">
+				<img src="Images/cover.png" />
 				<div class="game-description">
-					<h2>Game Name</h2>
+					<h2>Village of Fate</h2>
 				</div>
-			</div>
+			</a>
 		</div>
 	</main>
 	<footer>
+		<img id="bearpic" src="images/teddy.png" style="display:none" />
 		<div id="bottom-bar">
 			<ul id="contact-links">
 				<li class="social-image"><a href="https://twitter.com/GhostEntity12"><img src="Images/IconTwitter.png" /></a></li>
-				<li class="social-image"><a href="https://ghostentity12.itch.io/">	<img src="Images/IconItchio.png" /></a></li>
-				<li class="social-image"><a href="https://twitter.com/GhostEntity12"><img src="Images/IconLinkedIn.png" /></a></li>
+				<li class="social-image"><a href="https://ghostentity12.itch.io/"><img src="Images/IconItchio.png" /></a></li>
+				<li class="social-image"><a href="https://www.linkedin.com/in/james-leung-9b28241bb"><img src="Images/IconLinkedIn.png" /></a></li>
 			</ul>
 			<p id="copyright-info">
 				© James Leung 2020
 			</p>
 		</div>
 	</footer>
+	<script>
+		document.addEventListener("keydown", event => {
+			if (event.keyCode === 17) {
+				document.getElementById("bearpic").style = "";
+			}
+		});
+
+		document.addEventListener("keyup", event => {
+			if (event.keyCode === 17) {
+				document.getElementById("bearpic").style = "display:none";
+			}
+		});
+	</script>
 </body>
 </html>

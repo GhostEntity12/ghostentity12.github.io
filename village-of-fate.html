@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -162,15 +162,24 @@
 
 		/*New stuff*/
 		#parallax-image {
-			height: 50%;
+			height: 50vh;
 			width: 100%;
-			background-image: url("Images/Testing.png");
-			background-position: center;
-			background-attachment: fixed;
-			background-size:cover;
-			object-fit:fill;
-			position: absolute;
+			position: relative;
 		}
+
+			#parallax-image::before {
+				display: block;
+				height: 100%;
+				width: 100%;
+				position: absolute;
+				background-image: url("Images/vof.png");
+				background-position: center;
+				background-attachment: fixed;
+				background-size: cover;
+				object-fit: fill;
+				content: "";
+				z-index: -1;
+			}
 
 		#parallax-gradient {
 			height: 100%;
@@ -182,7 +191,44 @@
 		#title {
 			color: #F8F8F8;
 			font-size: 40pt;
-			margin: 0.5em 3em;
+			margin: 1rem 10vw;
+		}
+
+		#main-content {
+			padding: 2rem;
+			width: 70%;
+			margin: auto;
+			display: flex;
+			gap: 1.5rem;
+		}
+
+		h4 {
+			margin: 1rem auto 0;
+		}
+
+		p {
+			margin: 0 auto 1rem;
+			line-height: 1.45;
+		}
+
+		#body {
+			width: 65%;
+		}
+
+		#info {
+			border: 1px solid #bbb;
+			padding: 0 1.5rem;
+			border-radius: 4px;
+			height: min-content;
+			flex-grow: 1;
+		}
+
+		.download-link img {
+			height: 2rem;
+			padding: 0 0 1rem;
+		}
+
+		#main-content a {
 		}
 
 		@media (max-width: 768px) {
@@ -193,17 +239,28 @@
 
 			/*New stuff*/
 			#parallax-image {
-				height: 30%;
+				height: 30vh;
+				min-height: 12rem;
 			}
 
 			#title {
 				font-size: 30pt;
-				margin: 0.7em;
+				margin: 0.6em 0.9em;
 			}
 		}
 
-		@media (prefers-reduced-motion){
-			#parallax-image{
+		@media (max-width: 1000px) {
+			#main-content {
+				flex-direction: column-reverse;
+			}
+
+			#body {
+				max-width: unset;
+			}
+		}
+
+		@media (prefers-reduced-motion) {
+			#parallax-image {
 				background-attachment: scroll;
 			}
 		}
@@ -223,9 +280,9 @@
 				<li class="nav-link dropdown">
 					<a href="archive">Projects</a>
 					<div class="dropdown-content">
-						<a href="content.html">Welcome to the Apocalypse</a>
+						<a href="welcome-to-the-apocalypse.html">Welcome to the Apocalypse</a>
 						<a href="#">Tavern Trashers</a>
-						<a href="#">Village of Fate</a>
+						<a href="village-of-fate.html">Village of Fate</a>
 						<a href="archive">Full Archive</a>
 					</div>
 				</li>
@@ -235,21 +292,42 @@
 	<main>
 		<div id="parallax-image">
 			<div id="parallax-gradient">
-				<h1 id="title">Welcome to the Apocalypse</h1>
+				<h1 id="title">Village of Fate</h1>
 			</div>
 		</div>
-
-		<div style="height:1000px"></div>
+		<div id="main-content">
+			<div id="body">
+				<p>
+					Developed over the course of three days as part of the GMTK Game Jam 2020... 
+				</p>
+			</div>
+			<div id="info">
+				<h4>Developed:</h4>
+				<p>
+					2020
+				</p>
+				<h4>Role(s):</h4>
+				<p>
+					Design, Art, Programming
+				</p>
+				<h4>Download:</h4>
+				<div class="download-link">
+					<a href="https://ghostentity12.itch.io/village-of-fate">
+						<img src="Images/ItchDownload.png" />
+					</a>
+				</div>
+			</div>
+		</div>
 	</main>
 	<footer>
 		<div id="bottom-bar">
 			<ul id="contact-links">
 				<li class="social-image"><a href="https://twitter.com/GhostEntity12"><img src="Images/IconTwitter.png" /></a></li>
-				<li class="social-image"><a href="https://ghostentity12.itch.io/">	<img src="Images/IconItchio.png" /></a></li>
-				<li class="social-image"><a href="https://twitter.com/GhostEntity12"><img src="Images/IconLinkedIn.png" /></a></li>
+				<li class="social-image"><a href="https://ghostentity12.itch.io/"><img src="Images/IconItchio.png" /></a></li>
+				<li class="social-image"><a href="https://www.linkedin.com/in/james-leung-9b28241bb"><img src="Images/IconLinkedIn.png" /></a></li>
 			</ul>
 			<p id="copyright-info">
-				� James Leung 2020
+				© James Leung 2020
 			</p>
 		</div>
 	</footer>

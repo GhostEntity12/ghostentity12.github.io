@@ -11,3 +11,5 @@ team:
   - Marcus Steele
   - Johnny Kwong
 ---
+
+Monday Riot was developed as part of a three day AIE game jam. 

@@ -1,0 +1,61 @@
+<div id="info">
+	<h4>Developed:</h4>
+	<p>
+		{{ page.year }}
+	</p>
+	<h4>Genre:</h4>
+	<p>
+		{{ page.genre }}
+	</p>
+	<h4>Role(s):</h4>
+	<p>
+		{{ page.roles }}
+	</p>
+	<h4>Download:</h4>
+	{% unless page.downloadlinks %}
+	<p>Download unavailable.</p>
+	{% endunless %}
+
+	{% for link in page.downloadlinks %}
+		{% if link contains "drive.google.com" %}
+			<div class="download-link">
+				<a href="{{ link }}">Download (Google Drive)</a>
+			</div>
+		{% elsif link contains "itch.io" %}
+			<div class="download-link">
+				<a href="{{ link }}">
+					<img src="/assets/images/itchdown.png" />
+				</a>
+			</div>
+		{% endif %}
+	{% endfor %}
+	<h4>Team:</h4>
+	<p>
+		James Leung <br />
+
+		{% for person in site.data.people %}
+			{% if page.team contains person.Name %}
+				{{ person.Name }}
+				{% for service in person %}
+					{% if service[0] == "Name" %}
+						{% continue %}
+					{% endif %}
+					<a class="collaborator-link" href="{{ service[1] }}"><img src="/assets/images/{{ service[0] | downcase }}.png" /></a>
+				{% endfor %}<br />
+			{% endif %}
+		{% endfor %}
+
+		{% for member in page.team %}
+			{% assign foundPerson = false %}
+			{% for person in site.data.people %}
+				{% if member == person.Name %}
+					{% assign foundPerson = true %}
+					{% break %}
+				{% endif %}
+			{% endfor %}
+			{% unless foundPerson %}
+			{{ member }}<br />
+			{% endunless %}
+		{% endfor %}
+	</p>
+</div>

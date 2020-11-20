@@ -1,0 +1,171 @@
+﻿html, body {
+	height: 100%;
+}
+
+h2 {
+	font-family: Fira Sans, sans-serif;
+	font-weight: 400;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+main {
+	flex-grow: 1;
+}
+
+html {
+	font-family: Open Sans, sans-serif;
+}
+
+#header-link {
+	display: inline-flex;
+	align-items: center;
+}
+
+#header-text {
+	font-family: Fira Sans, sans-serif;
+	font-size: xx-large;
+	position: relative;
+	font-weight: 500;
+	margin-left: 1rem;
+}
+
+#header-image {
+	border-radius: 50%;
+	z-index: 1;
+	max-height: 4rem;
+	max-width: calc(100%/5);
+	margin-left: 1em;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#navigation {
+	padding: 0.5em;
+	margin: 0;
+	background-color: #e4e4e4;
+	display: flex;
+	justify-content: end;
+}
+
+.nav-link {
+	float: right;
+	text-align: center;
+	font-family: Fira Sans, sans-serif;
+	font-size: large;
+	width: 10%;
+	border-right: 1px solid #bbb;
+	min-width: 100px;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+
+li:last-child {
+	border: none;
+}
+
+li.dropdown {
+	display: inline-block;
+	position: relative;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	white-space: nowrap;
+	max-width: 400px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	right: 0;
+}
+
+	.dropdown-content a {
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+		text-align: left;
+	}
+
+		.dropdown-content a:hover {
+			background-color: #f1f1f1;
+		}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown-content a:last-of-type {
+	border-top: 1px solid #bbb;
+}
+
+a {
+	text-decoration: none;
+}
+
+	a:link, a:visited {
+		color: #222222;
+	}
+
+	a:hover {
+		color: #777777;
+	}
+
+#bottom-bar {
+	background-color: #FCFCFC;
+	padding: 0 0 15px 0;
+	width: 100%;
+	text-align: center;
+}
+
+#contact-links {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.social-image {
+	align-items: center;
+	margin: 10px 5px 10px 5px;
+}
+
+	.social-image img {
+		height: 40px;
+	}
+
+#copyright-info {
+	margin: 0;
+	padding: 0;
+}
+
+@media (max-width: 800px) {
+
+	#navigation {
+		justify-content: center;
+	}
+
+	.dropdown-content {
+		display: none;
+	}
+}
+
+#bearpic {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 10vw;
+	height: auto;
+	transform: translateX(-30%) translateY(30%) rotate(30deg);
+}

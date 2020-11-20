@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>James Leung | {{ page.title }}</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/default.css" />
+    {% if layout.stylesheet %}
+    <link rel="stylesheet" href="/assets/css/{{ layout.stylesheet }}.css" />
+    {% endif %}
+    {% if page.stylesheet %}
+    <link rel="stylesheet" href="/assets/css/{{ page.stylesheet }}.css" />
+    {% endif %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body style="background-color: #F0F0F0; margin: 0;">
+    <header style="position: relative">
+        <nav style="background-color: #FDFDFD;">
+            <a id="header-link" href="{{ site.baseurl }}">
+                <img id="header-image" src="/assets/images/profileimage.jpg" />
+                <h1 id="header-text">James Leung</h1>
+            </a>
+            {% include nav.html %}
+        </nav>
+    </header>
+    <main>
+        {{ content }}
+    </main>
+    <footer>
+        <img id="bearpic" src="/assets/images/teddy.png" style="display:none" />
+        <div id="bottom-bar">
+            <ul id="contact-links">
+                <li class="social-image"><a href="https://twitter.com/GhostEntity12"><img src="/assets/images/twitter.png" /></a></li>
+                <li class="social-image"><a href="https://ghostentity12.itch.io/"><img src="/assets/images/itch.png" /></a></li>
+                <li class="social-image"><a href="https://www.linkedin.com/in/james-leung-9b28241bb"><img src="/assets/images/linkedin.png" /></a></li>
+            </ul>
+            <p id="copyright-info">
+                © James Leung 2020
+            </p>
+        </div>
+    </footer>
+    <script>
+		document.addEventListener("keydown", event => {
+			if (event.keyCode === 17) {
+				document.getElementById("bearpic").style = "";
+			}
+		});
+
+		document.addEventListener("keyup", event => {
+			if (event.keyCode === 17) {
+				document.getElementById("bearpic").style = "display:none";
+			}
+		});
+    </script>
+</body>
+</html>

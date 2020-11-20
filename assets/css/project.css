@@ -1,0 +1,100 @@
+#parallax-container {
+	height: 50vh;
+	width: 100%;
+	position: relative;
+}
+
+#parallax-image {
+	display: block;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	object-fit: fill;
+	content: "";
+	z-index: -1;
+}
+
+#parallax-gradient {
+	height: 100%;
+	background-image: linear-gradient(0deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 25%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 100%);
+	display: flex;
+	align-items: flex-end;
+}
+
+#title {
+	color: #F8F8F8;
+	font-size: 40pt;
+	margin: 1rem 10vw;
+}
+
+#main-content {
+	padding: 2rem;
+	width: 70%;
+	margin: auto;
+	display: flex;
+	gap: 1.5rem;
+}
+
+h4 {
+	margin: 1rem auto 0;
+}
+
+p {
+	margin: 0 auto 1rem;
+	line-height: 1.45;
+}
+
+#body {
+	width: 65%;
+}
+
+#info {
+	border: 1px solid #bbb;
+	padding: 0 1.5rem;
+	border-radius: 4px;
+	height: min-content;
+	flex-grow: 1;
+}
+
+.download-link img {
+	height: 3rem;
+}
+
+.collaborator-link img {
+	display: inline-block;
+	height: 1.25rem;
+	vertical-align: middle;
+	bottom: 2px;
+	position: relative;
+}
+
+@media (max-width: 768px) {
+	#parallax-image {
+		height: 30vh;
+		min-height: 12rem;
+	}
+
+	#title {
+		font-size: 30pt;
+		margin: 0.6em 0.9em;
+	}
+}
+
+@media (max-width: 1000px) {
+	#main-content {
+		flex-direction: column-reverse;
+	}
+
+	#body {
+		width: unset;
+	}
+}
+
+@media (prefers-reduced-motion) {
+	#parallax-image {
+		background-attachment: scroll;
+	}
+}

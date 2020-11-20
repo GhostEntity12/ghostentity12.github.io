@@ -10,7 +10,13 @@ featureimage: /assets/images/cover.png
 downloadlinks:
   - https://ghostentity12.itch.io/village-of-fate
 team:
-  - A lot of people
+  - Christopher-Robin Ebbinghaus
+  - Callista Gale
+  - Rebekah Ure
+  - Tenzin Tsephel
+  - Clare Driscoll
+  - Finlay McAndrew
+  - Ishka Tsoflias
 ---
 
 lmao bear

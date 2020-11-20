@@ -4,9 +4,9 @@ projectfeature: true
 homepage: side
 title: Tavern Trashers
 year: 2019
-genre: Fighting
+genre: Party/Fighting
 roles: Design, Production, Programming
-featureimage: /assets/images/cover.png
+featureimage: /assets/images/taverntrashers.png
 downloadlinks:
   - https://ghostentity12.itch.io/village-of-fate
 team:

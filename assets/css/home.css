@@ -63,6 +63,12 @@
 	align-items: center;
 }
 
+@media (max-width: 500px) {
+	h2 {
+		font-size: larger;
+	}
+}
+
 @media (max-width: 800px) {
 	.wrapper {
 		display: grid;

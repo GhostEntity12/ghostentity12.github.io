@@ -53,7 +53,7 @@ p {
 
 #info {
 	border: 1px solid #bbb;
-	padding: 0 1.5rem;
+	padding: 0 1rem;
 	border-radius: 4px;
 	height: min-content;
 	flex-grow: 1;

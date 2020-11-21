@@ -1,0 +1,59 @@
+#content {
+	width: 75%;
+	margin: auto;
+}
+
+.year {
+	display: flex;
+}
+
+	.year::after {
+		content: "";
+		flex: 1 1;
+		border-bottom: 1px solid #000;
+		margin: auto;
+		margin-left: 2rem;
+	}
+
+.games {
+	margin: auto;
+	display: grid;
+	width: 66vw;
+	grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+	grid-auto-rows: 1fr;
+	grid-gap: 1rem;
+}
+
+.game-thumbnail {
+	object-fit: cover;
+	width: 100%;
+	border-radius: 6px;
+}
+
+h2 {
+	font-size: xx-large;
+}
+
+h3 {
+	margin: auto;
+}
+
+p {
+	margin: 0.2rem auto auto 1rem;
+}
+
+.game-info {
+	margin: 0.3rem 0.6rem;
+}
+
+@media (max-width: 899px) {
+	#content {
+		width: unset;
+		margin: auto 2rem;
+	}
+
+	.games {
+		width: 90%;
+		grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+	}
+}

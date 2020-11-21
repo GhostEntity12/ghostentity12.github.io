@@ -2,7 +2,7 @@
 layout: project
 title: Dispirited
 year: 2020
-genre: Action
+genre: Action/Party
 roles: Design, Art, Programming
 featureimage: /assets/images/dispirited.png
 downloadlinks:

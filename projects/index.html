@@ -1,3 +1,51 @@
 ---
 layout: default
+title: Archive
+stylesheet: archives
 ---
+<div id="content">
+	<div>
+		<h2 class="year">2020</h2>
+		<div class="games">
+			{% for page in site.pages %}
+				{% if page.year == 2020 %}
+					<a href="{{ page.url }}">
+						<img class="game-thumbnail" src="{{ page.featureimage }}" />
+						<div class="game-info">
+							<h3>{{ page.title }}</h3>
+							<p>{{ page.genre }}</p>
+						</div>
+					</a>
+				{% endif %}
+			{%endfor%}
+		</div>
+		<h2 class="year">2019</h2>
+		<div class="games">
+			{% for page in site.pages %}
+				{% if page.year == 2019 %}
+					<a href="{{ page.url }}">
+						<img class="game-thumbnail" src="{{ page.featureimage }}" />
+						<div class="game-info">
+							<h3>{{ page.title }}</h3>
+							<p>{{ page.genre }}</p>
+						</div>
+					</a>
+				{% endif %}
+			{%endfor%}
+		</div>
+		<h2 class="year">2018</h2>
+		<div class="games">
+			{% for page in site.pages %}
+				{% if page.year == 2018 %}
+					<a href="{{ page.url }}">
+						<img class="game-thumbnail" src="{{ page.featureimage }}" />
+						<div class="game-info">
+							<h3>{{ page.title }}</h3>
+							<p>{{ page.genre }}</p>
+						</div class="game-info">
+					</a>
+				{% endif %}
+			{%endfor%}
+		</div>
+	</div>
+</div>

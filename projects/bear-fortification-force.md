@@ -2,8 +2,8 @@
 layout: project
 title: Bear Fortification Force
 year: 2019
-genre: Tower Defence
+genre: Tower Defence/Twin Stick
 roles: Design, Art, Programming
-featureimage: 
+featureimage: /assets/images/bff.jpg
 downloadlinks:
 ---

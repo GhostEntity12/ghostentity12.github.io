@@ -8,7 +8,7 @@ stylesheet: home
 	{% for page in site.pages %}
 		{% if page.homepage == "main" %}
 		<a href="{{ page.url }}" class="main-game game-preview">
-			<img src="{{ page.featureimage }}" />
+			<img src="{{ page.featureimage }}" alt="{{ page.title }}" />
 			<div class="game-description">
 				<h2>{{ page.title }}</h2>
 				<p>{{ page.content }}</p>
@@ -16,7 +16,7 @@ stylesheet: home
 		</a>
 		{% elsif page.homepage == "side" %}
 		<a href="{{ page.url }}" class="side-game game-preview">
-			<img src="{{ page.featureimage }}" />
+			<img src="{{ page.featureimage }}" alt="{{ page.title }}" />
 			<div class="game-description">
 				<h2>{{ page.title }}</h2>
 			</div>

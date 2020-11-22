@@ -15,7 +15,7 @@
 
 .wrapper {
 	display: grid;
-	grid-template-columns: 60% 40%;
+	grid-template-columns: calc((70vw * 0.6) - 0.5em) calc((70vw * 0.4) - 0.5em);
 	grid-template-rows: min-content;
 	grid-gap: 1rem;
 	max-width: 70%;

@@ -1,3 +1,0 @@
----
-permalink: /archives/index.html
----

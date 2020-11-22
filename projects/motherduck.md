@@ -1,4 +1,4 @@
----
+﻿---
 layout: project
 title: Flagstaff Gardens Level (Motherduck)
 year: 2019
@@ -13,4 +13,3 @@ team:
 ---
 
 Motherduck was a level design exercise which took place early on in my Diploma at AIE where we had to create a level for a game named Motherduck. Our level was based on Flagstaff Gardens.
-

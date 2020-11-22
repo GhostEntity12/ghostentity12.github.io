@@ -6,7 +6,7 @@ title: Welcome to the Apocalypse
 year: 2020
 genre: Tactics/Turn-Based Strategy
 roles: Design Lead, Production, Level Design, Programming 
-featureimage: /assets/images/testing.png
+featureimage: /assets/images/wtta.jpg
 downloadlinks:
   - https://theburkester.itch.io/wtta
 team:

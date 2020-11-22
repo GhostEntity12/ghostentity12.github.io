@@ -6,7 +6,7 @@ title: Tavern Trashers
 year: 2019
 genre: Action/Party
 roles: Design, Production, Programming
-featureimage: /assets/images/taverntrashers.png
+featureimage: /assets/images/taverntrashers.jpg
 downloadlinks:
   - https://ghostentity12.itch.io/village-of-fate
 team:

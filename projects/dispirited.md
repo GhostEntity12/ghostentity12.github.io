@@ -4,7 +4,7 @@ title: Dispirited
 year: 2020
 genre: Action/Party
 roles: Design, Art, Programming
-featureimage: /assets/images/dispirited.png
+featureimage: /assets/images/dispirited.jpg
 downloadlinks:
   - https://merves.itch.io/dispirited
 team:

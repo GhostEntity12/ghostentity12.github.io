@@ -13,6 +13,11 @@ stylesheet: project
 <div id="main-content">
 	<div id="body">
 		{{ content }}
+		<div id="gallery">
+			{% for image in page.galleryimages %}
+				<img src= {{ image }} />
+			{% endfor %}
+		</div>
 	</div>
 	{% include projectinfo.html %}
 </div>

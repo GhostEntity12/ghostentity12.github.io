@@ -13,6 +13,10 @@
     {% if page.stylesheet %}
     <link rel="stylesheet" href="/assets/css/{{ page.stylesheet }}.css" />
     {% endif %}
+    {% if layout.stylesheet == "project" %}
+    <link rel="stylesheet" href="/assets/js/photoswipe.css" />
+    <link rel="stylesheet" href="/assets/js/dep/default-skin.css" />
+    {% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 

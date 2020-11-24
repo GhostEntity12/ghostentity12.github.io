@@ -15,16 +15,17 @@ stylesheet: project
 		{{ content }}
 		<div id="gallery">
 			{% for video in page.galleryvideos %}
-				<div class="lightbox-preview">
+				<div class="thumbnail-video">
 					<iframe src="{{ video }}" frameborder="0" allowfullscreen></iframe>
 				</div>
 			{% endfor %}
 			{% for image in page.galleryimages %}
 				<div class="lightbox-preview" id="image{{ forloop.index }}">
-					<img src={{ image }} />
+					<img class="lightbox-image" data-index="{{ forloop.index }}" src={{ image }} />
 				</div>
 			{% endfor %}
 		</div>
 	</div>
+	{% include photoswipe.html %}
 	{% include projectinfo.html %}
 </div>

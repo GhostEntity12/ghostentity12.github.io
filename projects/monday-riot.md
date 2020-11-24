@@ -5,6 +5,7 @@ year: 2020
 genre: Action/Party
 roles: Design, Art, Programming
 featureimage: /assets/images/mondayriot.jpg
+animatedimage: /assets/images/mondayriot.jpg
 downloadlinks:
 team:
   - Lachlan Wernert

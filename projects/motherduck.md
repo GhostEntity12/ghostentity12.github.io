@@ -5,7 +5,7 @@ year: 2019
 genre: Action
 roles: Design, Art
 featureimage: /assets/images/motherduck.jpg
-downloadlinks:
+animatedimage: /assets/images/motherduck.jpg
 team:
   - Rhiannon Forster
   - Johnny Kwong

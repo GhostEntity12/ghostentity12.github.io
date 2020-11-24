@@ -5,6 +5,11 @@ year: 2019
 genre: Tower Defence/Twin Stick
 roles: Design, Art, Programming
 featureimage: /assets/images/bff.jpg
+animatedimage: /assets/images/bff.apng
+galleryimages:
+  - /assets/images/bff1.jpg
+  - /assets/images/bff2.jpg
+  - /assets/images/bff3.jpg
 downloadlinks:
 ---
 

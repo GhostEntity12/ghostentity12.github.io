@@ -4,7 +4,12 @@ title: Little Town
 year: 2020
 genre: Simulation
 roles: Design, Art, Programming
-featureimage: /assets/images/littletown.jpg
+featureimage: /assets/images/littletown1.jpg
+animatedimage: /assets/images/littletown.apng
+galleryimages:
+  - /assets/images/littletown1.jpg
+  - /assets/images/littletown2.jpg
+  - /assets/images/littletown3.jpg
 downloadlinks:
 ---
 

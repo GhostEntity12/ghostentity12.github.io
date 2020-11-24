@@ -14,8 +14,15 @@ stylesheet: project
 	<div id="body">
 		{{ content }}
 		<div id="gallery">
+			{% for video in page.galleryvideos %}
+				<div class="lightbox-preview">
+					<iframe src="{{ video }}" frameborder="0" allowfullscreen></iframe>
+				</div>
+			{% endfor %}
 			{% for image in page.galleryimages %}
-				<img src= {{ image }} />
+				<div class="lightbox-preview" id="image{{ forloop.index }}">
+					<img src={{ image }} />
+				</div>
 			{% endfor %}
 		</div>
 	</div>

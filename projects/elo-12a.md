@@ -5,6 +5,7 @@ year: 2019
 genre: Point-and-click
 roles: Design, Art, Programming
 featureimage: /assets/images/elo12a.jpg
+animatedimage: /assets/images/elo12a.jpg
 ---
 
 ELO-12⍺ is a solo vertical slice developed over the course of 5 weeks in 2019.

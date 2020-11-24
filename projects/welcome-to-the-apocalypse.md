@@ -7,6 +7,15 @@ year: 2020
 genre: Tactics/Turn-Based Strategy
 roles: Design Lead, Production, Level Design, Programming 
 featureimage: /assets/images/wtta.jpg
+animatedimage: /assets/images/wtta.jpg
+galleryvideos:
+  - https://drive.google.com/file/d/1isdQ1C5o8Fiknkf73BEZG7A7ipV0u4Ok/preview
+galleryimages:
+  - /assets/images/wtta.jpg
+  - /assets/images/wtta1.jpg
+  - /assets/images/wtta2.jpg
+  - /assets/images/wtta3.jpg
+  - /assets/images/wtta4.jpg
 downloadlinks:
   - https://theburkester.itch.io/wtta
 team:

@@ -5,6 +5,13 @@ year: 2020
 genre: Action
 roles: Design, Programming
 featureimage: /assets/images/a4aces.jpg
+animatedimage: /assets/images/a4aces.apng
+galleryvideos:
+  - https://drive.google.com/file/d/18l_cSrcBIMI-a34JVPrbmteOsMCKeDT1/preview
+galleryimages:
+  - /assets/images/a4aces1.jpg
+  - /assets/images/a4aces2.jpg
+  - /assets/images/a4aces3.jpg
 downloadlinks:
 team:
   - Noah Mendelsohn-Thornton

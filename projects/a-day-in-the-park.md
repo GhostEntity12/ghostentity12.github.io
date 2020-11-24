@@ -5,6 +5,7 @@ year: 2020
 genre: Action
 roles: Design, Programming
 featureimage: /assets/images/adayinthepark.jpg
+animatedimage: /assets/images/adayinthepark.apng
 downloadlinks:
   - https://ghostentity12.itch.io/a-day-in-the-park
 team:

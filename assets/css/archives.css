@@ -69,7 +69,7 @@ p {
 @media (max-width: 899px) {
 	#content {
 		width: unset;
-		margin: auto 2rem;
+		margin: auto 2rem 2rem;
 	}
 
 	.games {

@@ -23,15 +23,24 @@ html {
 #header-link {
 	display: inline-flex;
 	align-items: center;
+	margin: 1rem auto;
 }
 
 #header-text {
-	font-family: Fira Sans, sans-serif;
-	font-size: xx-large;
 	position: relative;
-	font-weight: 500;
 	margin-left: 1rem;
+	display:flex;
+	flex-direction:column;
 }
+	#header-text h1 {
+		font-family: Fira Sans, sans-serif;
+		font-size: xx-large;
+		font-weight: 500;
+		margin: 0;
+	}
+	#header-text p {
+		margin: 0;
+	}
 
 #header-image {
 	border-radius: 50%;

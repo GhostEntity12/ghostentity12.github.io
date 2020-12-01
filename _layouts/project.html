@@ -26,6 +26,13 @@ stylesheet: project
 			{% endfor %}
 		</div>
 	</div>
+	<div id="sidebar">
+		{% if page.mainvideo %}
+			<div class="thumbnail-video">
+				<iframe src="{{ page.mainvideo }}" frameborder="0" allowfullscreen></iframe>
+			</div>
+		{% endif %}
+		{% include projectinfo.html %}
+	</div>
 	{% include photoswipe.html %}
-	{% include projectinfo.html %}
 </div>

@@ -59,6 +59,19 @@ p {
 	object-fit: cover;
 }
 
+@media (max-width: 1100px){
+	#about-content {
+		flex-direction: column;
+		margin: 0.5rem 1rem;
+	}
+
+	#headshot {
+		width: 70%;
+		margin: 1rem auto;
+		max-width: 270px;
+	}
+}
+
 @media (max-width: 768px) {
 	#content {
 		margin: auto;
@@ -84,18 +97,7 @@ p {
 		border-right: none;
 	}
 
-
-	#about-content {
-		flex-direction: column;
-		margin: 0.5rem 1rem;
-	}
-
 	#about-content > p {
 		margin: 0;
-	}
-
-	#headshot { 
-		width: 70%;
-		margin: 1rem auto;
 	}
 }

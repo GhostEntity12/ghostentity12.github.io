@@ -6,8 +6,8 @@ title: Village of Fate
 year: 2020
 genre: Strategy
 roles: Design, Art, Programming
-featureimage: /assets/images/vof.jpg
-animatedimage: /assets/images/vof.jpg
+featureimage: /assets/images/projects/vof.jpg
+animatedimage: /assets/images/projects/vof.jpg
 downloadlinks:
   - https://ghostentity12.itch.io/village-of-fate
 team:

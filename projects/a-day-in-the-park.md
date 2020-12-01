@@ -4,13 +4,13 @@ title: A Day in the Park
 year: 2020
 genre: Action
 roles: Design, Programming
-featureimage: /assets/images/adayinthepark.jpg
-animatedimage: /assets/images/adayinthepark.apng
+featureimage: /assets/images/projects/adayinthepark.jpg
+animatedimage: /assets/images/projects/adayinthepark.apng
 galleryimages:
-  - /assets/images/aditp1.jpg
-  - /assets/images/aditp2.jpg
-  - /assets/images/aditp3.jpg
-  - /assets/images/aditp4.jpg
+  - /assets/images/projects/aditp1.jpg
+  - /assets/images/projects/aditp2.jpg
+  - /assets/images/projects/aditp3.jpg
+  - /assets/images/projects/aditp4.jpg
 downloadlinks:
   - https://ghostentity12.itch.io/a-day-in-the-park
 team:

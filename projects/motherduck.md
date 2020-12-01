@@ -4,8 +4,8 @@ title: Flagstaff Gardens Level (Motherduck)
 year: 2019
 genre: Action
 roles: Design, Art
-featureimage: /assets/images/motherduck.jpg
-animatedimage: /assets/images/motherduck.jpg
+featureimage: /assets/images/projects/motherduck.jpg
+animatedimage: /assets/images/projects/motherduck.jpg
 team:
   - Rhiannon Forster
   - Johnny Kwong

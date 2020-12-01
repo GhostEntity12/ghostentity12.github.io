@@ -4,12 +4,12 @@ title: Bear Fortification Force
 year: 2019
 genre: Tower Defence/Twin Stick
 roles: Design, Art, Programming
-featureimage: /assets/images/bff.jpg
-animatedimage: /assets/images/bff.apng
+featureimage: /assets/images/projects/bff.jpg
+animatedimage: /assets/images/projects/bff.apng
 galleryimages:
-  - /assets/images/bff1.jpg
-  - /assets/images/bff2.jpg
-  - /assets/images/bff3.jpg
+  - /assets/images/projects/bff1.jpg
+  - /assets/images/projects/bff2.jpg
+  - /assets/images/projects/bff3.jpg
 downloadlinks:
 ---
 

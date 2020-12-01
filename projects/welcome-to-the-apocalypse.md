@@ -6,15 +6,15 @@ title: Welcome to the Apocalypse
 year: 2020
 genre: Tactics/Turn-Based Strategy
 roles: Design Lead, Production, Level Design, Programming 
-featureimage: /assets/images/wtta.jpg
-animatedimage: /assets/images/wtta.jpg
+featureimage: /assets/images/projects/wtta.jpg
+animatedimage: /assets/images/projects/wtta.jpg
 mainvideo: https://www.youtube.com/embed/_XFcuIs5cWU
 galleryimages:
-  - /assets/images/wtta.jpg
-  - /assets/images/wtta1.jpg
-  - /assets/images/wtta2.jpg
-  - /assets/images/wtta3.jpg
-  - /assets/images/wtta4.jpg
+  - /assets/images/projects/wtta.jpg
+  - /assets/images/projects/wtta1.jpg
+  - /assets/images/projects/wtta2.jpg
+  - /assets/images/projects/wtta3.jpg
+  - /assets/images/projects/wtta4.jpg
 downloadlinks:
   - https://theburkester.itch.io/wtta
 team:
@@ -37,4 +37,4 @@ Welcome to the Apocalypse was developed as the capstone project of my Advanced D
 In Welcome to the Apocalypse, you control the Four Horsemen of the Apocalypse as they attempt to stop an entity known as The True Apocalypse from continuing to destroy the world before its time has come. The player starts with only Death in their squad and must defeat the other horsemen one by one, making them join their squad. In the vertical slice we developed over the four months, you controlled Death and Pestilence as they travelled to Famine's manor in order to defeat him.
 
 ### My Role
-My main role for the project was Design Lead, though I also took on other responsibilities, including assisting on production, shaders and code, effectively also acting as technical designer. I created the first draft for the layout of Famine's level, as well as multiple passes of dressing the environment, and was fully responsible for the entirety of the town level. Some of my programming responsibilites included UI functionality and assisting on the AI code.
+My main role for the project was Design Lead, though I also took on other responsibilities, including assisting on production, shaders and code, effectively also acting as technical designer. I created the first draft for the layout of Famine's level, as well as multiple passes of dressing the environment, and was fully responsible for the entirety of the town level. Some of my programming responsibilites included the creation of a dialogue system, UI functionality and assisting on the AI code.

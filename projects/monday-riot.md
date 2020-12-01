@@ -4,8 +4,8 @@ title: Monday Riot
 year: 2020
 genre: Action/Party
 roles: Design, Art, Programming
-featureimage: /assets/images/mondayriot.jpg
-animatedimage: /assets/images/mondayriot.jpg
+featureimage: /assets/images/projects/mondayriot.jpg
+animatedimage: /assets/images/projects/mondayriot.jpg
 downloadlinks:
 team:
   - Lachlan Wernert

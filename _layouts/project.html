@@ -13,18 +13,31 @@ stylesheet: project
 <div id="main-content">
 	<div id="body">
 		{{ content }}
-		<div id="gallery">
-			{% for video in page.galleryvideos %}
-				<div class="thumbnail-video">
-					<iframe src="{{ video }}" frameborder="0" allowfullscreen></iframe>
-				</div>
-			{% endfor %}
-			{% for image in page.galleryimages %}
-				<div class="lightbox-preview" id="image{{ forloop.index }}">
-					<img class="lightbox-image" data-index="{{ forloop.index }}" src={{ image }} />
-				</div>
-			{% endfor %}
-		</div>
+		{% if page.breakdowns %}
+			<div id="breakdowns">
+				<h3>Breakdowns</h3>
+				{% for breakdown in page.breakdowns %}
+					{% capture breakdownName %}{{breakdown}}.md{% endcapture %}
+					{% assign breakdownPage = site.pages | where:"name",breakdownName | first %}
+					<a href="/breakdowns/{{breakdown}}.html">{{ breakdownPage.title }}</a>
+				{% endfor %}
+			</div>
+		{% endif %}
+		{% if page.galleryvideos or page.galleryimages %}
+		<h3>Gallery</h3>
+			<div id="gallery">
+				{% for video in page.galleryvideos %}
+					<div class="thumbnail-video">
+						<iframe src="{{ video }}" frameborder="0" allowfullscreen></iframe>
+					</div>
+				{% endfor %}
+				{% for image in page.galleryimages %}
+					<div class="lightbox-preview" id="image{{ forloop.index }}">
+						<img class="lightbox-image" data-index="{{ forloop.index }}" src={{ image }} />
+					</div>
+				{% endfor %}
+			</div>
+		{% endif %}
 	</div>
 	<div id="sidebar">
 		{% if page.mainvideo %}

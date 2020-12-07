@@ -17,6 +17,7 @@ galleryimages:
   - /assets/images/projects/wtta4.jpg
 downloadlinks:
   - https://theburkester.itch.io/wtta
+website: https://showcase.aie.edu.au/project/welcome-to-the-apocalypse/
 team:
   - Nicholas Burke
   - Alexander Frencham

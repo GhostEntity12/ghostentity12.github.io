@@ -1,0 +1,49 @@
+main {
+	margin: auto;
+	width: 70%;
+}
+
+#title {
+	margin-bottom: 0.5rem;
+}
+
+#page-return {
+	width: 97.5%;
+	margin:auto;
+}
+
+#main-content {
+	width: 90%;
+	margin: auto auto 1rem;
+	line-height: 1.45rem
+}
+
+.caption img {
+	margin: auto auto 0.5rem;
+	display: block;
+	max-width: 75%;
+}
+
+.caption {
+	text-align: center;
+	color: #777;
+}
+
+#main-content a {
+	font-weight: bold;
+	color: #393e48;
+}
+
+	#main-content a:hover {
+		color: #7c7e84;
+	}
+
+@media (max-width:800px){
+	main {
+		width: 90%;
+	}
+
+	.caption img {
+		max-width: 90%;
+	}
+}

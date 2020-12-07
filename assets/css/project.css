@@ -118,9 +118,31 @@ p {
 	display:flex;
 }
 
+	.lightbox-preview:hover {
+		cursor: pointer;
+	}
+
 h3 {
 	margin-bottom: 0.3rem;
 }
+
+#breakdowns a {
+	font-weight: bold;
+	color: #393e48;
+}
+
+	#breakdowns a:hover {
+		color: #7c7e84;
+	}
+
+#website {
+	font-weight: bold;
+	color: #393e48;
+}
+
+	#website:hover {
+		color: #7c7e84;
+	}
 
 @media (max-width: 768px) {
 

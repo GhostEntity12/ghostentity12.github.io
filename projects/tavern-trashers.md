@@ -8,8 +8,6 @@ genre: Action/Party
 roles: Design, Production, Programming
 featureimage: /assets/images/projects/taverntrashers.jpg
 animatedimage: /assets/images/projects/taverntrashers.jpg
-downloadlinks:
-  - https://ghostentity12.itch.io/village-of-fate
 team:
   - Christopher-Robin Ebbinghaus
   - Callista Gale

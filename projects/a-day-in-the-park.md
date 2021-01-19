@@ -6,6 +6,7 @@ genre: Action
 roles: Design, Programming
 featureimage: /assets/images/projects/adayinthepark.jpg
 animatedimage: /assets/images/projects/adayinthepark.apng
+mainvideo: https://www.youtube.com/embed/6PMtc9MbKP0
 galleryimages:
   - /assets/images/projects/aditp1.jpg
   - /assets/images/projects/aditp2.jpg

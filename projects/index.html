@@ -4,7 +4,23 @@ title: Archive
 stylesheet: archives
 ---
 <div id="content">
-	<h2 class="year">2020</h2>
+	<h2 class="year">2021</h2>
+	<div class="games">
+		{% for page in site.pages %}
+		{% if page.year == 2021 %}
+		<a class="game-container" href="{{ page.url }}">
+			<div>
+				<img class="game-thumbnail" src="{{ page.featureimage }}" />
+				<img class="animated-thumbnail" src="{{ page.animatedimage }}" />
+			</div>
+			<div class="game-info">
+				<h3>{{ page.title }}</h3>
+				<p>{{ page.genre }}</p>
+			</div>
+		</a>
+		{% endif %}
+		{%endfor%}
+	</div>	<h2 class="year">2020</h2>
 	<div class="games">
 		{% for page in site.pages %}
 		{% if page.year == 2020 %}

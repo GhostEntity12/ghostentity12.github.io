@@ -17,18 +17,28 @@
 	{% endunless %}
 
 	{% for link in page.downloadlinks %}
-		{% if link contains "drive.google.com" %}
-			<div class="download-link">
-				<a href="{{ link }}">Download (Google Drive)</a>
-			</div>
-		{% elsif link contains "itch.io" %}
-			<div class="download-link">
-				<a href="{{ link }}">
-					<img src="/assets/images/itchdown.png" />
-				</a>
-			</div>
-		{% endif %}
+	{% if link contains "drive.google.com" %}
+	<div class="download-link">
+		<a href="{{ link }}">Download (Google Drive)</a>
+	</div>
+	{% elsif link contains "itch.io" %}
+	<div class="download-link">
+		<a href="{{ link }}">
+			<img src="/assets/images/itch-badge.png" />
+		</a>
+	</div>
+	{% elsif link contains "play.google.com" %}
+	<div class="download-link">
+		<a href="{{ link }}">
+			<img src="/assets/images/google-play-badge.png" />
+		</a>
+	</div>
+	{% endif %}
 	{% endfor %}
+	{% if {{page.website}} %}
+	<h4>Game Page:</h4>
+	<a id="website" href="{{page.website}}">Here</a>
+	{% endif %}
 	<h4>Team:</h4>
 	<p>
 		James Leung <br />
@@ -54,7 +64,7 @@
 				{% endif %}
 			{% endfor %}
 			{% unless foundPerson %}
-			{{ member }}<br />
+				{{ member }}<br />
 			{% endunless %}
 		{% endfor %}
 	</p>

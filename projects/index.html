@@ -4,7 +4,7 @@ title: Archive
 stylesheet: archives
 ---
 <div id="content">
-	<h2 class="year">2021</h2>
+	<h2 id ="2021"class="year">2021</h2>
 	<div class="games">
 		{% for page in site.pages %}
 		{% if page.year == 2021 %}
@@ -20,7 +20,8 @@ stylesheet: archives
 		</a>
 		{% endif %}
 		{%endfor%}
-	</div>	<h2 class="year">2020</h2>
+	</div>
+	<h2 id="2020" class="year">2020</h2>
 	<div class="games">
 		{% for page in site.pages %}
 		{% if page.year == 2020 %}
@@ -37,7 +38,7 @@ stylesheet: archives
 		{% endif %}
 		{%endfor%}
 	</div>
-	<h2 class="year">2019</h2>
+	<h2 id ="2019" class="year">2019</h2>
 	<div class="games">
 		{% for page in site.pages %}
 		{% if page.year == 2019 %}
@@ -54,7 +55,7 @@ stylesheet: archives
 		{% endif %}
 		{%endfor%}
 	</div>
-	<h2 class="year">2018</h2>
+	<h2 id="2018" class="year">2018</h2>
 	<div class="games">
 		{% for page in site.pages %}
 		{% if page.year == 2018 %}

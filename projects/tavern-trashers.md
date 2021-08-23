@@ -1,7 +1,5 @@
 ﻿---
 layout: project
-projectfeature: true
-homepage: side
 title: Tavern Trashers
 year: 2019
 genre: Action/Party

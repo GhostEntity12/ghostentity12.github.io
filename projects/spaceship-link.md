@@ -7,8 +7,8 @@ roles: Design, Art, Programming
 featureimage: /assets/images/projects/spaceshiplink.jpg
 animatedimage: /assets/images/projects/spaceshiplink.jpg
 galleryimages:
- - /assets/images/projects/spaceshiplink.jpg
  - /assets/images/projects/spaceshiplink1.jpg
+ - /assets/images/projects/spaceshiplink.jpg
 downloadlinks:
   - https://ghostentity12.itch.io/spaceship-link
 team:
@@ -16,7 +16,7 @@ team:
   - Massimo Gamboni
 ---
 
-Spaceship Link was a one week project developed in February 2021 as part of the Brackeys 2021.1 Game Jam.
+Spaceship Link was a one week project developed in February 2021 as part of the **[Brackeys 2021.1 Game Jam](https://itch.io/jam/brackeys-5)**.
 
 ### About Spaceship Link
 Spaceship Link is a co-op twin stick shooter where the closer the two players' ships are, the more damage the players do. Players need to shoot down enemy ships to defend a trio of satellites for as long as possible, gaining score for each ship they destroy.

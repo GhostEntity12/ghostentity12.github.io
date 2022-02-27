@@ -4,7 +4,24 @@ title: Archive
 stylesheet: archives
 ---
 <div id="content">
-	<h2 id ="2021"class="year">2021</h2>
+	<h2 id="2022" class="year">2022</h2>
+	<div class="games">
+		{% for page in site.pages %}
+		{% if page.year == 2022 %}
+		<a class="game-container" href="{{ page.url }}">
+			<div>
+				<img class="game-thumbnail" src="{{ page.featureimage }}" />
+				<img class="animated-thumbnail" src="{{ page.animatedimage }}" />
+			</div>
+			<div class="game-info">
+				<h3>{{ page.title }}</h3>
+				<p>{{ page.genre }}</p>
+			</div>
+		</a>
+		{% endif %}
+		{%endfor%}
+	</div>
+	<h2 id="2021" class="year">2021</h2>
 	<div class="games">
 		{% for page in site.pages %}
 		{% if page.year == 2021 %}
@@ -38,7 +55,7 @@ stylesheet: archives
 		{% endif %}
 		{%endfor%}
 	</div>
-	<h2 id ="2019" class="year">2019</h2>
+	<h2 id="2019" class="year">2019</h2>
 	<div class="games">
 		{% for page in site.pages %}
 		{% if page.year == 2019 %}

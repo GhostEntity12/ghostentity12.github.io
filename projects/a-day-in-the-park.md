@@ -1,6 +1,6 @@
 ﻿---
 layout: project
-title: A Day in the Park
+title: A Day in the Park (Jam Version)
 year: 2020
 genre: Action
 roles: Design, Programming
@@ -26,6 +26,8 @@ team:
 ---
 
 A Day in the Park was made as part of a three day AIE game jam in May of 2020.
+
+An updated version was released for PC and Android devices in 2021. See **[here](/projects/a-day-in-the-park-mobile)** for more info.
 
 ### About A Day in the Park
 In A Day in the Park, players play as a pigeon named Will trying to collect food in the form of seeds and sandwiches to your nest while avoiding frisbees and an evil magpie named Bidge. Collecting food and bringing it back to the nest rewards the player  with points, while getting hit by Bidge or a frisbee will cause Will to lose a life. The player's goal is to get as high of a score as possible before Will loses all three of his lives.

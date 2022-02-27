@@ -7,10 +7,10 @@ year: 2021
 genre: Puzzle
 roles: Design, Art, Programming
 featureimage: /assets/images/projects/duo.jpg
-animatedimage: 
+animatedimage: /assets/images/projects/duo.jpg
 galleryimages:
- - /assets/images/projects/duo.jpg
  - /assets/images/projects/duo1.jpg
+ - /assets/images/projects/duo.jpg
  - /assets/images/projects/duo2.jpg
  - /assets/images/projects/duo3.jpg
 downloadlinks:
@@ -21,7 +21,7 @@ team:
   - Onorina Pachi
 ---
 
-duo was made in 48 hours as part of the 2021 GMTK Game Jam.
+duo was made in 48 hours as part of the **[2021 GMTK Game Jam](https://itch.io/jam/gmtk-2021)**.
 
 ### About duo
 duo is a puzzle game where the player controls two avatars at once, trying to get them both to a goal tile. Both avatars move identically from the same input but can only interact with certain items and walls - the red character can only interact with and be stopped by red items and the blue character, blue items. Players can interact with buttons and switches which can make walls appear and disappear or even swap the positions of players

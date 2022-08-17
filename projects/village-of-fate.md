@@ -1,7 +1,5 @@
 ﻿---
 layout: project
-projectfeature: true
-homepage: side
 title: Village of Fate
 year: 2020
 genre: Strategy

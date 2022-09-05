@@ -30,6 +30,8 @@ team:
   - Grant Roberts
   - James Goutos
   - Connor Li
+breakdowns:
+  - wtta-town-level
 ---
 
 Welcome to the Apocalypse was developed as the capstone project of my Advanced Diploma at AIE. Full time development started in early August and ran through to mid-November though early prototypes had started to be developed in April.

@@ -1,8 +1,6 @@
 ﻿---
 layout: project
 title: Dice Link
-projectfeature: true
-homepage: side
 year: 2022
 genre: Puzzle
 roles: Design, Programming

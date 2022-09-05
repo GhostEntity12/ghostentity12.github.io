@@ -1,7 +1,7 @@
 ﻿---
 layout: project
 projectfeature: true
-homepage: main
+homepage: side
 title: Welcome to the Apocalypse
 year: 2020
 genre: Tactics/Turn-Based Strategy

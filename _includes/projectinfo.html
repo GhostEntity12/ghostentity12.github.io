@@ -39,7 +39,12 @@
 	<h4>Game Page:</h4>
 	<a id="website" href="{{page.website}}">Here</a>
 	{% endif %}
-	<h4>Team:</h4>
+	<h4>
+		Team:
+		{% if page.twitter %}
+			<a class="collaborator-link" href="{{ page.twitter }}"><img src="/assets/images/sites/twitter.png" /></a>
+		{% endif %}
+	</h4>
 	<p>
 		James Leung <br />
 

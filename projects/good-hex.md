@@ -8,6 +8,10 @@ genre: Management
 roles: Technical Gameplay Designer (Design, Programming)
 featureimage: /assets/images/projects/goodhex.jpg
 animatedimage: /assets/images/projects/goodhex.jpg
+galleryimages:
+ - /assets/images/projects/goodhex_kitchen.jpg
+ - /assets/images/projects/goodhex_greenhouse.jpg
+
 twitter: https://twitter.com/teampatrax
 team:
   - Oliver Bedier

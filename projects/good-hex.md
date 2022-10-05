@@ -11,7 +11,9 @@ animatedimage: /assets/images/projects/goodhex.jpg
 galleryimages:
  - /assets/images/projects/goodhex_kitchen.jpg
  - /assets/images/projects/goodhex_greenhouse.jpg
-
+downloadlinks:
+  - https://ghostentity12.itch.io/good-hex/
+website: http://patrax.built.games
 twitter: https://twitter.com/teampatrax
 team:
   - Oliver Bedier
@@ -32,8 +34,10 @@ In Good Hex is Hard to Find, the player commands an group of rats, co-ordinating
 The game features a beautiful handpainted artstyle which blends 2D and 3D art together.
 
 ### My Role
-My role on Good Hex was as a Technical Gameplay Designer, working with the other designers to concept both general and level mechanics and then with the programming team to implement them. I was involved in creating early prototypes of systems and then iterating and polishing them through tester feedback.
+My role on Good Hex was as the Technical Gameplay Designer, working with the other designers to concept both general and level mechanics and then with the programming team to implement them. I was involved in creating early prototypes of systems and iterating and polishing them through tester feedback.
 
-Mechanics I worked on included creating systems that managed rat movement and assignment to tasks, rat behaviour, UI functionality, and the many different types of task.
+Mechanics I worked on included creating systems that managed rat movement and assignment to tasks, rat behaviour, UI functionality, and the different types of tasks.
 
-The project also makes use of a lightly modified version of the dialogue system I originally created for **[Welcome to the Apocalypse](/projects/welcome-to-the-apocalypse)**
+The project also makes use of a lightly modified version of the dialogue system I originally created for **[Welcome to the Apocalypse](/projects/welcome-to-the-apocalypse)**.
+
+Other areas I was responsible for included adding decor to levels, and creating shaders and particle effects for the project, some of which include the water shader in the greenhouse, and particle effects around the magical selector.

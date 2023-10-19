@@ -6,12 +6,15 @@ genre: Point-and-click
 roles: Design, Art, Programming
 featureimage: /assets/images/projects/elo12a.jpg
 animatedimage: /assets/images/projects/elo12a.gif
+bannerimage: /assets/images/projects/elo12a.jpg
+mainvideo:
+downloadlinks:
 galleryimages:
   - /assets/images/projects/elo12a.jpg
   - /assets/images/projects/elo12a1.jpg
 ---
 
-ELO-12⍺ is a solo vertical slice developed over the course of 5 weeks in 2019.
+ELO-12⍺ is a vertical slice which was developed solo over the course of 5 weeks in 2019.
 
 ### About ELO-12⍺
 In ELO-12⍺ players control Kira Walters, a human living on the planet Kepler-422b, or Eleos, in the 29th century. While out exploring in her buggy, she comes across a abandoned structure and decides to explore it. The vertical slice explores the first part Kira's exploration in the titular ELO-12⍺.

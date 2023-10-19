@@ -6,7 +6,10 @@ genre: Action/Party
 roles: Design, Art, Programming
 featureimage: /assets/images/projects/mondayriot.jpg
 animatedimage: /assets/images/projects/mondayriot.jpg
+bannerimage: /assets/images/projects/mondayriot.jpg
+mainvideo:
 downloadlinks:
+galleryimages:
 team:
   - Lachlan Wernert
   - Marcus Steele

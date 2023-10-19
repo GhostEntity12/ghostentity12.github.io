@@ -6,11 +6,13 @@ genre: Simulation
 roles: Design, Art, Programming
 featureimage: /assets/images/projects/littletown1.jpg
 animatedimage: /assets/images/projects/littletown.apng
+bannerimage: /assets/images/projects/littletown1.jpg
+mainvideo:
+downloadlinks:
 galleryimages:
   - /assets/images/projects/littletown1.jpg
   - /assets/images/projects/littletown2.jpg
   - /assets/images/projects/littletown3.jpg
-downloadlinks:
 ---
 
 Little Town was a 5 week long solo project created in Feburary and March of 2020 as part of my Advanced Diploma at AIE. 

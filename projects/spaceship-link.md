@@ -6,11 +6,13 @@ genre: Twin-stick Shooter
 roles: Design, Art, Programming
 featureimage: /assets/images/projects/spaceshiplink.jpg
 animatedimage: /assets/images/projects/spaceshiplink.jpg
-galleryimages:
- - /assets/images/projects/spaceshiplink1.jpg
- - /assets/images/projects/spaceshiplink.jpg
+bannerimage:
+mainvideo:
 downloadlinks:
   - https://ghostentity12.itch.io/spaceship-link
+galleryimages:
+  - /assets/images/projects/spaceshiplink1.jpg
+  - /assets/images/projects/spaceshiplink.jpg
 team:
   - Nicholas Burke
   - Massimo Gamboni

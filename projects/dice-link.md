@@ -4,17 +4,18 @@ title: Dice Link
 year: 2022
 genre: Puzzle
 roles: Design, Programming
-featureimage: /assets/images/projects/dicelink2.jpg
-animatedimage: /assets/images/projects/dicelink1.jpg
-galleryimages:
- - /assets/images/projects/dicelink1.jpg
- - /assets/images/projects/dicelink2.jpg
- - /assets/images/projects/dicelink3.jpg
- - /assets/images/projects/dicelink4.jpg
- - /assets/images/projects/dicelink5.jpg
+featureimage: /assets/images/projects/dicelink/dicelink2.jpg
+animatedimage: /assets/images/projects/dicelink/dicelink1.jpg
+bannerimage: /assets/images/projects/dicelink/dicelink2.jpg
+mainvideo: https://www.youtube.com/embed/1zwXloUgGns
 downloadlinks:
   - https://ghostentity12.itch.io/dice-link
-mainvideo: https://www.youtube.com/embed/1zwXloUgGns
+galleryimages:
+ - /assets/images/projects/dicelink/dicelink1.jpg
+ - /assets/images/projects/dicelink/dicelink2.jpg
+ - /assets/images/projects/dicelink/dicelink3.jpg
+ - /assets/images/projects/dicelink/dicelink4.jpg
+ - /assets/images/projects/dicelink/dicelink5.jpg
 team:
   - Rhiannon Forster
 ---

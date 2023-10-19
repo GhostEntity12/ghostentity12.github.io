@@ -4,14 +4,16 @@ title: Dispirited
 year: 2020
 genre: Action/Party
 roles: Design, Art, Programming
-featureimage: /assets/images/projects/dispirited.jpg
-animatedimage: /assets/images/projects/dispirited.jpg
-galleryimages:
-  - /assets/images/projects/dispirited.jpg
-  - /assets/images/projects/dispirited1.jpg
-  - /assets/images/projects/dispirited2.jpg
+featureimage: /assets/images/projects/dispirited/dispirited.jpg
+animatedimage: /assets/images/projects/dispirited/dispirited.jpg
+bannerimage: /assets/images/projects/dispirited/dispirited.jpg
+mainvideo:
 downloadlinks:
   - https://merves.itch.io/dispirited
+galleryimages:
+  - /assets/images/projects/dispirited/dispirited.jpg
+  - /assets/images/projects/dispirited/dispirited1.jpg
+  - /assets/images/projects/dispirited/dispirited2.jpg
 team:
   - Merve Soylu
   - Johnny Kwong

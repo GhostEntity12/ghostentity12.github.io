@@ -4,15 +4,15 @@ title: A4 Aces
 year: 2020
 genre: Action
 roles: Design, Programming
-featureimage: /assets/images/projects/a4aces.jpg
-animatedimage: /assets/images/projects/a4aces.apng
-mainvideo:
-  - https://drive.google.com/file/d/18l_cSrcBIMI-a34JVPrbmteOsMCKeDT1/preview
-galleryimages:
-  - /assets/images/projects/a4aces1.jpg
-  - /assets/images/projects/a4aces2.jpg
-  - /assets/images/projects/a4aces3.jpg
+featureimage: /assets/images/projects/a4aces/feature.jpg
+animatedimage: /assets/images/projects/a4aces/animated.apng
+bannerimage: /assets/images/projects/a4aces/feature.jpg
+mainvideo: https://drive.google.com/file/d/18l_cSrcBIMI-a34JVPrbmteOsMCKeDT1/preview
 downloadlinks:
+galleryimages:
+  - /assets/images/projects/a4aces/1.jpg
+  - /assets/images/projects/a4aces/2.jpg
+  - /assets/images/projects/a4aces/3.jpg
 team:
   - Noah Mendelsohn-Thornton
   - Marcus Steele

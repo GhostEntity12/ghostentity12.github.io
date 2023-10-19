@@ -8,16 +8,16 @@ genre: Tactics/Turn-Based Strategy
 roles: Design Lead, Production, Level Design, Programming 
 featureimage: /assets/images/projects/wtta.jpg
 animatedimage: /assets/images/projects/wtta.jpg
+bannerimage: /assets/images/projects/wtta.jpg
 mainvideo: https://www.youtube.com/embed/_XFcuIs5cWU
+downloadlinks:
+  - https://theburkester.itch.io/wtta
 galleryimages:
   - /assets/images/projects/wtta.jpg
   - /assets/images/projects/wtta1.jpg
   - /assets/images/projects/wtta2.jpg
   - /assets/images/projects/wtta3.jpg
   - /assets/images/projects/wtta4.jpg
-downloadlinks:
-  - https://theburkester.itch.io/wtta
-website: https://showcase.aie.edu.au/project/welcome-to-the-apocalypse/
 team:
   - Nicholas Burke
   - Alexander Frencham
@@ -30,6 +30,7 @@ team:
   - Grant Roberts
   - James Goutos
   - Connor Li
+website: https://showcase.aie.edu.au/project/welcome-to-the-apocalypse/
 breakdowns:
   - wtta-town-level
 ---

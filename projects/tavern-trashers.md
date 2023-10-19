@@ -6,6 +6,10 @@ genre: Action/Party
 roles: Design, Production, Programming
 featureimage: /assets/images/projects/taverntrashers.jpg
 animatedimage: /assets/images/projects/taverntrashers.jpg
+bannerimage: /assets/images/projects/taverntrashers.jpg
+mainvideo:
+downloadlinks:
+galleryimages:
 team:
   - Christopher-Robin Ebbinghaus
   - Callista Gale

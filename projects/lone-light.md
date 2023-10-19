@@ -6,6 +6,9 @@ genre: Platformer
 roles: Programmer
 featureimage: /assets/images/projects/lonelight.jpg
 animatedimage: /assets/images/projects/lonelight.jpg
+bannerimage: /assets/images/projects/lonelight.jpg
+mainvideo:
+downloadlinks:
 galleryimages:
   - /assets/images/projects/lonelight1.jpg
   - /assets/images/projects/lonelight.jpg

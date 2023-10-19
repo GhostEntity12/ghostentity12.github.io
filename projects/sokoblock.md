@@ -6,10 +6,13 @@ genre: Puzzle
 roles: Design, Programming
 featureimage: /assets/images/projects/sokoblock.jpg
 animatedimage: /assets/images/projects/sokoblock.jpg
+bannerimage: /assets/images/projects/sokoblock.jpg
+mainvideo:
+downloadlinks:
 galleryimages:
- - /assets/images/projects/sokoblock.jpg
- - /assets/images/projects/sokoblock1.jpg
- - /assets/images/projects/sokoblock2.jpg
+  - /assets/images/projects/sokoblock.jpg
+  - /assets/images/projects/sokoblock1.jpg
+  - /assets/images/projects/sokoblock2.jpg
 ---
 
 Sokoblock was a small solo project developed over the course of a week in 2021.

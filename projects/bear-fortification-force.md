@@ -4,13 +4,15 @@ title: Bear Fortification Force
 year: 2019
 genre: Tower Defence/Twin Stick
 roles: Design, Art, Programming
-featureimage: /assets/images/projects/bff.jpg
-animatedimage: /assets/images/projects/bff.apng
-galleryimages:
-  - /assets/images/projects/bff1.jpg
-  - /assets/images/projects/bff2.jpg
-  - /assets/images/projects/bff3.jpg
+featureimage: /assets/images/projects/bearfortificationforce/feature.jpg
+animatedimage: /assets/images/projects/bearfortificationforce/animated.apng
+bannerimage: /assets/images/projects/bearfortificationforce/feature.jpg
+mainvideo:
 downloadlinks:
+galleryimages:
+  - /assets/images/projects/bearfortificationforce/bff1.jpg
+  - /assets/images/projects/bearfortificationforce/bff2.jpg
+  - /assets/images/projects/bearfortificationforce/bff3.jpg
 ---
 
 Bear Fortification Force was developed over the course of six weeks in 2019 as part of the Design Prototyping Fundamentals unit of my AIE Game Design diploma.

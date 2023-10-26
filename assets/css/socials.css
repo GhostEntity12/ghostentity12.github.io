@@ -28,8 +28,8 @@ main {
 	.social-button > img {
 		grid-column-start: 1;
 		padding-left: 0.25rem;
-		height: 2rem;
-		width: auto;
+		height: auto;
+		width: 2rem;
 		margin-right: auto;
 	}
 

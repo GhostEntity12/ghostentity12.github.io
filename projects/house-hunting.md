@@ -36,6 +36,7 @@ team:
   - Callum Lee Gow
 website: http://ghost.built.games/presskits/househunting
 twitter: https://twitter.com/OneHouseOneFish
+instagram: https://www.instagram.com/thathousehuntinggame
 ---
 
 House Hunting was developed as a capstone project by a Swinburne University of Technology student team, and was exhibited at PAX Australia 2023 at the Swinburne booth. The project was in development between March and late October 2023.

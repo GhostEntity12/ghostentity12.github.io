@@ -4,15 +4,15 @@ title: Spaceship Link
 year: 2021
 genre: Twin-stick Shooter
 roles: Design, Art, Programming
-featureimage: /assets/images/projects/spaceshiplink.jpg
-animatedimage: /assets/images/projects/spaceshiplink.jpg
-bannerimage:
+featureimage: /assets/images/projects/spaceshiplink/spaceshiplink.jpg
+animatedimage: /assets/images/projects/spaceshiplink/spaceshiplink.jpg
+bannerimage: /assets/images/projects/spaceshiplink/spaceshiplink.jpg
 mainvideo:
 downloadlinks:
   - https://ghostentity12.itch.io/spaceship-link
 galleryimages:
-  - /assets/images/projects/spaceshiplink1.jpg
-  - /assets/images/projects/spaceshiplink.jpg
+  - /assets/images/projects/spaceshiplink/spaceshiplink1.jpg
+  - /assets/images/projects/spaceshiplink/spaceshiplink.jpg
 team:
   - Nicholas Burke
   - Massimo Gamboni

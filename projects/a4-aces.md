@@ -10,9 +10,9 @@ bannerimage: /assets/images/projects/a4aces/feature.jpg
 mainvideo: https://drive.google.com/file/d/18l_cSrcBIMI-a34JVPrbmteOsMCKeDT1/preview
 downloadlinks:
 galleryimages:
-  - /assets/images/projects/a4aces/1.jpg
-  - /assets/images/projects/a4aces/2.jpg
-  - /assets/images/projects/a4aces/3.jpg
+  - /assets/images/projects/a4aces/a4aces1.jpg
+  - /assets/images/projects/a4aces/a4aces2.jpg
+  - /assets/images/projects/a4aces/a4aces3.jpg
 team:
   - Noah Mendelsohn-Thornton
   - Marcus Steele

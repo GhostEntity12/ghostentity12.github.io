@@ -4,19 +4,19 @@ title: Lone Light
 year: 2021
 genre: Platformer
 roles: Programmer
-featureimage: /assets/images/projects/lonelight.jpg
-animatedimage: /assets/images/projects/lonelight.jpg
-bannerimage: /assets/images/projects/lonelight.jpg
+featureimage: /assets/images/projects/lonelight/lonelight.jpg
+animatedimage: /assets/images/projects/lonelight/lonelight.jpg
+bannerimage: /assets/images/projects/lonelight/lonelight.jpg
 mainvideo:
 downloadlinks:
 galleryimages:
-  - /assets/images/projects/lonelight1.jpg
-  - /assets/images/projects/lonelight.jpg
-  - /assets/images/projects/lonelight2.jpg
-  - /assets/images/projects/lonelight3.jpg
-  - /assets/images/projects/lonelight4.jpg
-  - /assets/images/projects/lonelight5.jpg
-  - /assets/images/projects/lonelight6.jpg
+  - /assets/images/projects/lonelight/lonelight1.jpg
+  - /assets/images/projects/lonelight/lonelight.jpg
+  - /assets/images/projects/lonelight/lonelight2.jpg
+  - /assets/images/projects/lonelight/lonelight3.jpg
+  - /assets/images/projects/lonelight/lonelight4.jpg
+  - /assets/images/projects/lonelight/lonelight5.jpg
+  - /assets/images/projects/lonelight/lonelight6.jpg
 team:
   - Faye Miravalles
   - Jason Do

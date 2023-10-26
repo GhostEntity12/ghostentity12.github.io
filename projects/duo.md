@@ -1,7 +1,5 @@
 ﻿---
 layout: project
-projectfeature: true
-homepage: side
 title: duo
 year: 2021
 genre: Puzzle

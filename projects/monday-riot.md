@@ -4,12 +4,13 @@ title: Monday Riot
 year: 2020
 genre: Action/Party
 roles: Design, Art, Programming
-featureimage: /assets/images/projects/mondayriot.jpg
-animatedimage: /assets/images/projects/mondayriot.jpg
-bannerimage: /assets/images/projects/mondayriot.jpg
+featureimage: /assets/images/projects/mondayriot/mondayriot.jpg
+animatedimage: /assets/images/projects/mondayriot/mondayriot.jpg
+bannerimage: /assets/images/projects/mondayriot/mondayriot.jpg
 mainvideo:
 downloadlinks:
 galleryimages:
+  - /assets/images/projects/mondayriot/mondayriot.jpg
 team:
   - Lachlan Wernert
   - Marcus Steele

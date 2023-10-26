@@ -6,15 +6,15 @@ title: Good Hex is Hard to Find
 year: 2022
 genre: Management
 roles: Technical Gameplay Designer (Design, Programming)
-featureimage: /assets/images/projects/goodhex.jpg
-animatedimage: /assets/images/projects/goodhex.jpg
-bannerimage: /assets/images/projects/goodhex.jpg
+featureimage: /assets/images/projects/goodhex/goodhex.jpg
+animatedimage: /assets/images/projects/goodhex/goodhex.jpg
+bannerimage: /assets/images/projects/goodhex/goodhex.jpg
 mainvideo: https://www.youtube.com/embed/StJVTWlD_zU
 downloadlinks:
   - https://ghostentity12.itch.io/good-hex/
 galleryimages:
- - /assets/images/projects/goodhex_kitchen.jpg
- - /assets/images/projects/goodhex_greenhouse.jpg
+ - /assets/images/projects/goodhex/goodhex_kitchen.jpg
+ - /assets/images/projects/goodhex/goodhex_greenhouse.jpg
 team:
   - Oliver Bedier
   - Mitchell Wright
@@ -24,11 +24,12 @@ team:
   - Josh Hehir
   - Matt Kennedy
   - Maziz Rahman
+  - Jordan Moore
 website: http://patrax.built.games
 twitter: https://twitter.com/teampatrax
 ---
 
-Good Hex is Hard to Find was developed as a capstone project by a Swinburne University of Technology student team, and was exhibited at PAX Australia 2022 at the Swinburne booth. The project was in development between March and late October 2023.
+Good Hex is Hard to Find was developed as a capstone project by a Swinburne University of Technology student team, and was exhibited at PAX Australia 2022 at the Swinburne booth. The project was in development between March and late October 2022.
 
 ### About Good Hex is Hard to Find
 In Good Hex is Hard to Find, the player commands an group of rats, co-ordinating them to attempt to resurrect their witch owner. The player assigns rats to do tasks which include planting seeds, gathering potion ingredients and moving levers.

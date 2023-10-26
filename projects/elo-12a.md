@@ -4,14 +4,14 @@ title: ELO-12⍺
 year: 2019
 genre: Point-and-click
 roles: Design, Art, Programming
-featureimage: /assets/images/projects/elo12a.jpg
-animatedimage: /assets/images/projects/elo12a.gif
-bannerimage: /assets/images/projects/elo12a.jpg
+featureimage: /assets/images/projects/elo12a/elo12a.jpg
+animatedimage: /assets/images/projects/elo12a/elo12a.gif
+bannerimage: /assets/images/projects/elo12a/elo12a.jpg
 mainvideo:
 downloadlinks:
 galleryimages:
-  - /assets/images/projects/elo12a.jpg
-  - /assets/images/projects/elo12a1.jpg
+  - /assets/images/projects/elo12a/elo12a.jpg
+  - /assets/images/projects/elo12a/elo12a1.jpg
 ---
 
 ELO-12⍺ is a vertical slice which was developed solo over the course of 5 weeks in 2019.

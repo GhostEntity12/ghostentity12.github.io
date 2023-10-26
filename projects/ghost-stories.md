@@ -4,19 +4,19 @@ title: Ghost Stories
 year: 2022
 genre: Adventure/Exploration
 roles: Design, Art, Programming
-featureimage: /assets/images/projects/ghoststories.jpg
-animatedimage: /assets/images/projects/ghoststories.jpg
-bannerimage: /assets/images/projects/ghoststories.jpg
+featureimage: /assets/images/projects/ghoststories/ghoststories.jpg
+animatedimage: /assets/images/projects/ghoststories/ghoststories.jpg
+bannerimage: /assets/images/projects/ghoststories/ghoststories.jpg
 mainvideo:
 downloadlinks:
   - https://ghostentity12.itch.io/ghost-stories
 galleryimages:
- - /assets/images/projects/ghoststories5.jpg
- - /assets/images/projects/ghoststories.jpg
- - /assets/images/projects/ghoststories1.jpg
- - /assets/images/projects/ghoststories2.jpg
- - /assets/images/projects/ghoststories3.jpg
- - /assets/images/projects/ghoststories4.jpg
+ - /assets/images/projects/ghoststories/ghoststories5.jpg
+ - /assets/images/projects/ghoststories/ghoststories.jpg
+ - /assets/images/projects/ghoststories/ghoststories1.jpg
+ - /assets/images/projects/ghoststories/ghoststories2.jpg
+ - /assets/images/projects/ghoststories/ghoststories3.jpg
+ - /assets/images/projects/ghoststories/ghoststories4.jpg
 team:
   - Rhiannon Forster
 ---

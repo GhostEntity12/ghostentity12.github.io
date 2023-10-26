@@ -4,13 +4,14 @@ title: Village of Fate
 year: 2020
 genre: Strategy
 roles: Design, Art, Programming
-featureimage: /assets/images/projects/vof.jpg
-animatedimage: /assets/images/projects/vof.jpg
-bannerimage:
+featureimage: /assets/images/projects/villageoffate/vof.jpg
+animatedimage: /assets/images/projects/villageoffate/vof.jpg
+bannerimage: /assets/images/projects/villageoffate/vof.jpg
 mainvideo:
 downloadlinks:
   - https://ghostentity12.itch.io/village-of-fate
 galleryimages:
+  - /assets/images/projects/villageoffate/vof.jpg
 team:
   - Grant Roberts
 ---

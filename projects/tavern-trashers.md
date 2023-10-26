@@ -4,12 +4,13 @@ title: Tavern Trashers
 year: 2019
 genre: Action/Party
 roles: Design, Production, Programming
-featureimage: /assets/images/projects/taverntrashers.jpg
-animatedimage: /assets/images/projects/taverntrashers.jpg
-bannerimage: /assets/images/projects/taverntrashers.jpg
+featureimage: /assets/images/projects/taverntrashers/taverntrashers.jpg
+animatedimage: /assets/images/projects/taverntrashers/taverntrashers.jpg
+bannerimage: /assets/images/projects/taverntrashers/taverntrashers.jpg
 mainvideo:
 downloadlinks:
 galleryimages:
+  - /assets/images/projects/taverntrashers/taverntrashers.jpg
 team:
   - Christopher-Robin Ebbinghaus
   - Callista Gale

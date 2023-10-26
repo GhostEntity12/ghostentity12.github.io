@@ -1,23 +1,21 @@
 ﻿---
 layout: project
-projectfeature: true
-homepage: side
 title: Welcome to the Apocalypse
 year: 2020
 genre: Tactics/Turn-Based Strategy
 roles: Design Lead, Production, Level Design, Programming 
-featureimage: /assets/images/projects/wtta.jpg
-animatedimage: /assets/images/projects/wtta.jpg
-bannerimage: /assets/images/projects/wtta.jpg
+featureimage: /assets/images/projects/welcometotheapocalypse/wtta.jpg
+animatedimage: /assets/images/projects/welcometotheapocalypse/wtta.jpg
+bannerimage: /assets/images/projects/welcometotheapocalypse/wtta.jpg
 mainvideo: https://www.youtube.com/embed/_XFcuIs5cWU
 downloadlinks:
   - https://theburkester.itch.io/wtta
 galleryimages:
-  - /assets/images/projects/wtta.jpg
-  - /assets/images/projects/wtta1.jpg
-  - /assets/images/projects/wtta2.jpg
-  - /assets/images/projects/wtta3.jpg
-  - /assets/images/projects/wtta4.jpg
+  - /assets/images/projects/welcometotheapocalypse/wtta.jpg
+  - /assets/images/projects/welcometotheapocalypse/wtta1.jpg
+  - /assets/images/projects/welcometotheapocalypse/wtta2.jpg
+  - /assets/images/projects/welcometotheapocalypse/wtta3.jpg
+  - /assets/images/projects/welcometotheapocalypse/wtta4.jpg
 team:
   - Nicholas Burke
   - Alexander Frencham

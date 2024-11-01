@@ -26,4 +26,4 @@ The PizZooria was developed in August over 48 hours for the [GMTK Game Jam 2024]
 In The PizZooria, players make use of a special shink-and-grow ray to resize their pizzas to the right size for the various animals who come by each day. Different animals require different sized pizzas, and will pay the player according to how satisfied they were with the size of the pizza. After serving each animal, the player gets a small amount of feedback on how accurate they were from a speech bubble from the animal. 
 
 ### My Role
-I acted as the programmer and a designer for The PizZooria, as well as doing some basic 3D modelling for the pizza and shop as well as animating the pizza arround the room. Systems programmed included the scoring system, resizing of the pizza and th UI.
+I acted as the programmer and a designer for The PizZooria, as well as doing some basic 3D modelling for the pizza and shop as well as animating the pizza arround the room. Systems programmed included the scoring system, resizing of the pizza and the UI.

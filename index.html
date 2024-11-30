@@ -3,24 +3,29 @@ layout: default
 title: Home
 stylesheet: home
 ---
-
-<div class="wrapper">
+<div id="preview-video">
+	<iframe src="https://www.youtube.com/embed/OabaRyaxRdg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<div id="project-boxes">
+<h1>Selected Projects</h1>
+	<div id="boxes">
 	{% for page in site.pages %}
 		{% if page.homepage == "main" %}
-		<a href="{{ page.url }}" class="main-game game-preview">
-			<img src="{{ page.featureimage }}" alt="{{ page.title }}" />
-			<div class="game-description">
-				<h2>{{ page.title }}</h2>
-				<p>{{ page.content }}</p>
-			</div>
-		</a>
-		{% elsif page.homepage == "side" %}
-		<a href="{{ page.url }}" class="side-game game-preview">
-			<img src="{{ page.featureimage }}" alt="{{ page.title }}" />
-			<div class="game-description">
-				<h2>{{ page.title }}</h2>
-			</div>
-		</a>
+			<a href="{{ page.url }}" class="main-game game-preview">
+				<img src="{{ page.featureimage }}" alt="{{ page.title }}" />
+				<div class="game-description">
+					<h2>{{ page.title }}</h2>
+					<p>{{ page.content }}</p>
+				</div>
+			</a>
+			{% elsif page.homepage == "side" %}
+			<a href="{{ page.url }}" class="side-game game-preview">
+				<img src="{{ page.featureimage }}" alt="{{ page.title }}" />
+				<div class="game-description">
+					<h2>{{ page.title }}</h2>
+				</div>
+			</a>
 		{% endif %}
 	{% endfor %}
+	</div>
 </div>

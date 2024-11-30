@@ -54,7 +54,8 @@ p {
 }
 
 #headshot {
-	width: 30%;
+	width: 100%;
+	min-width: 200px;
 	display: inline-block;
 	object-fit: cover;
 	border-radius: 5px;
